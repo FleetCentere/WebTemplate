@@ -1,0 +1,22 @@
+h1
+{
+    display: flex;
+    background-color: grey;
+}
+
+
+.top-background
+{
+    display: flex;
+    background-color: lightpink;
+}
+
+.top-child
+{
+    /* flex: 1; */
+    margin: 2px;
+    border: 4px darkblue;
+    background-color: lightblue;
+    text-align: center;
+
+}
