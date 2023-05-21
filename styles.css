@@ -1,22 +1,26 @@
-h1
-{
-    display: flex;
-    background-color: grey;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+h1 {
+    display: flex;
+    background-color: grey;
+    text-align: center;
+    margin: 0 auto;
+}
 
-.top-background
-{
+.nav-list {
     display: flex;
     background-color: lightpink;
 }
 
-.top-child
-{
-    /* flex: 1; */
+.nav-item {
+    flex: 1;
     margin: 2px;
+    padding: 2px;
     border: 4px darkblue;
     background-color: lightblue;
     text-align: center;
-
 }
